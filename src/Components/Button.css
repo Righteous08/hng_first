@@ -1,0 +1,21 @@
+.link {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 24px 32px;
+  background: #eaecf0;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  outline: none;
+  font-weight: 290;
+  line-height: 1;
+  text-align: center;
+  color: black;
+  border: 1px solid #4978d7;
+  cursor: pointer;
+  outline: none;
+}
+.link:hover {
+  background: #dfe1e6;
+}

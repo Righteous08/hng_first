@@ -1,0 +1,74 @@
+@import url("httpS://fonts.googleapis.com/css2?family=Noto+Sans+Jp:wght@400;700&display=swap");
+header{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    position: relative;
+}
+.share-icon{
+    position: absolute;
+    top: -10px;
+    right: 100px;
+    font-size: 50px;
+    color: #fff;
+}
+.share{
+    cursor: pointer;
+}
+.menu {
+    display: none;
+}
+
+.user_pics{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    
+}
+
+#twitter{
+    padding: 15px;
+}
+.my_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#twitter{
+    font-weight: 800;
+    margin-top: 14px;
+    margin-bottom: 55px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 19px;
+
+}
+#slack{
+    display: none;
+}
+
+/*Design for mobile responsiveness*/
+@media (max-width: 768px) {
+    .share-icon {
+        right: 20px;
+    }
+    .menu {
+        display: block;
+    }
+    .share {
+        display: none;
+    }
+}
+
+/*Design for ipad responsiveness*/
+@media (max-width: 1024px) {
+    .share-icon{
+        right: 20px;
+    }
+}
